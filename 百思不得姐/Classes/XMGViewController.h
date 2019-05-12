@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  XMGViewController.h
 //  百思不得姐
 //
 //  Created by XieHenry on 2019/5/12.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface XMGViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

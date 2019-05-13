@@ -57,7 +57,7 @@
  @param selectedImage 选中图标
  */
 -(void)setUpOneChildViewController:(UIViewController *)vc title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage  {
-    vc.view.backgroundColor = [UIColor redColor];
+    vc.view.backgroundColor = XMGRandomColor;
     vc.tabBarItem.title = title;
     vc.tabBarItem.image = [UIImage imageNamed:image];
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];

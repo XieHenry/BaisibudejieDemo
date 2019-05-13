@@ -14,7 +14,6 @@
 		5B5C3E102287B9DA00E8C046 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C3E0F2287B9DA00E8C046 /* main.m */; };
 		5B5C3E1A2287B9DA00E8C046 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C3E192287B9DA00E8C046 /* _____Tests.m */; };
 		5B5C3E252287B9DA00E8C046 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C3E242287B9DA00E8C046 /* _____UITests.m */; };
-		5B5C3E332287CE1D00E8C046 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C3E322287CE1D00E8C046 /* Images.xcassets */; };
 		5B952DFF22882D64006BE88B /* XMGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B952DFE22882D64006BE88B /* XMGTabBarController.m */; };
 		5B952E0222883AD6006BE88B /* XMGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B952E0122883AD6006BE88B /* XMGViewController.m */; };
 /* End PBXBuildFile section */
@@ -51,11 +50,11 @@
 		5B5C3E202287B9DA00E8C046 /* 百思不得姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5C3E242287B9DA00E8C046 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		5B5C3E262287B9DA00E8C046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B5C3E322287CE1D00E8C046 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5B952DFD22882D64006BE88B /* XMGTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGTabBarController.h; sourceTree = "<group>"; };
 		5B952DFE22882D64006BE88B /* XMGTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGTabBarController.m; sourceTree = "<group>"; };
 		5B952E0022883AD6006BE88B /* XMGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGViewController.h; sourceTree = "<group>"; };
 		5B952E0122883AD6006BE88B /* XMGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGViewController.m; sourceTree = "<group>"; };
+		5BE6B6F922898F8200E62A64 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,7 +156,7 @@
 				5B5C3E062287B9D800E8C046 /* Main.storyboard */,
 				5B5C3E0E2287B9DA00E8C046 /* Info.plist */,
 				5B5C3E0F2287B9DA00E8C046 /* main.m */,
-				5B5C3E322287CE1D00E8C046 /* Images.xcassets */,
+				5BE6B6F922898F8200E62A64 /* PrefixHeader.pch */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -453,7 +452,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B5C3E0D2287B9DA00E8C046 /* LaunchScreen.storyboard in Resources */,
-				5B5C3E332287CE1D00E8C046 /* Images.xcassets in Resources */,
 				5B5C3E0A2287B9DA00E8C046 /* Assets.xcassets in Resources */,
 				5B5C3E082287B9D800E8C046 /* Main.storyboard in Resources */,
 			);
@@ -577,8 +575,11 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -635,7 +636,10 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -657,6 +661,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YZK33WLG48;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/百思不得姐/Supporting Files/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/百思不得姐/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -676,6 +683,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YZK33WLG48;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/百思不得姐/Supporting Files/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/百思不得姐/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -694,6 +704,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "百思不得姐Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -712,6 +723,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "百思不得姐Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -728,7 +740,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "百思不得姐UITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -745,7 +759,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "百思不得姐UITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

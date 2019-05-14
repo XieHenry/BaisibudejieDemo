@@ -9,9 +9,9 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+
 /**在#ifdef __OBJC__ 和#endif之间的内容，只被使用Objective-C语言的文件所引用，无法被其他语言使用**/
 #ifdef __OBJC__
-
 /** 日志 **/
 #ifdef DEBUG
 #define XMGLog(...) NSLog(__VA_ARGS__)
@@ -19,10 +19,31 @@
 #define XMGLog(...)
 #endif
 
+
+#define XMGLogFunc XMGLog(@"%s",__func__);
+
+
 /** 颜色 **/
 #define XMGColorA(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a/255.0]
 #define XMGColor(r,g,b) XMGColorA((r),(g),(b),255)
 #define XMGRandomColor XMGColor(arc4random_uniform(255),arc4random_uniform(255),arc4random_uniform(255))
+#define XMGGrayColor(v) XMGColor(v,v,v)
+#define XMGCommonBgColor XMGGrayColor(206)
+
+
+
+
+
+
+
+
+
+
+#import "XMGNavigationController.h"
+#import "UIView+Layout.h"
+#import "UIBarButtonItem+XMGExtension.h"
+
+
 
 #endif
 #endif /* PrefixHeader_pch */

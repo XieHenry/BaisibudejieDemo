@@ -24,7 +24,6 @@
 
     [self setupItemTextAttributes];
 
-    
     [self settpChildViewController];
 }
 
@@ -38,9 +37,11 @@
      */
     
     /**添加子控制器**/
+        [self setUpOneChildViewController:[[XMGFriendTrendsViewController alloc] init] title:@"关注" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
+    
     [self setUpOneChildViewController:[[XMGEssenceViewController alloc] init] title:@"精华" image:@"tabBar_essence_icon" selectedImage:@"tabBar_essence_click_icon"];
     [self setUpOneChildViewController:[[XMGNewViewController alloc] init] title:@"新帖" image:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon"];
-    [self setUpOneChildViewController:[[XMGFriendTrendsViewController alloc] init] title:@"关注" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
+
     [self setUpOneChildViewController:[[XMGMeViewController alloc] init] title:@"我" image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
     
     

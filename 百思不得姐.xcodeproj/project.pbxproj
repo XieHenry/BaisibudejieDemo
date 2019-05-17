@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B32852F228D3DCE00351A14 /* XMGLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B32852D228D3DCE00351A14 /* XMGLoginRegisterViewController.m */; };
+		5B328530228D3DCE00351A14 /* XMGLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B32852E228D3DCE00351A14 /* XMGLoginRegisterViewController.xib */; };
 		5B5C3E022287B9D800E8C046 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C3E012287B9D800E8C046 /* AppDelegate.m */; };
 		5B5C3E082287B9D800E8C046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C3E062287B9D800E8C046 /* Main.storyboard */; };
 		5B5C3E0A2287B9DA00E8C046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C3E092287B9DA00E8C046 /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 		5BB3E0D8228AE38A0006C0AB /* XMGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3E0D7228AE38A0006C0AB /* XMGNavigationController.m */; };
 		5BB3E0DB228AE6110006C0AB /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3E0D9228AE6110006C0AB /* UIView+Layout.m */; };
 		5BB3E0DF228AEDE50006C0AB /* UIBarButtonItem+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3E0DE228AEDE50006C0AB /* UIBarButtonItem+XMGExtension.m */; };
+		5BD0329D228BC3D000CFAC35 /* XMGRecommendFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD0329C228BC3D000CFAC35 /* XMGRecommendFollowViewController.m */; };
+		5BD032A1228C3A7A00CFAC35 /* XMGFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BD032A0228C3A7A00CFAC35 /* XMGFriendTrendsViewController.xib */; };
 		6E444190CAE90D3084059325 /* libPods-百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51731C1DF77071C97B7AE313 /* libPods-百思不得姐.a */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +51,9 @@
 /* Begin PBXFileReference section */
 		4DE33C3828947D7BA4337671 /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
 		51731C1DF77071C97B7AE313 /* libPods-百思不得姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B32852C228D3DCE00351A14 /* XMGLoginRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGLoginRegisterViewController.h; sourceTree = "<group>"; };
+		5B32852D228D3DCE00351A14 /* XMGLoginRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGLoginRegisterViewController.m; sourceTree = "<group>"; };
+		5B32852E228D3DCE00351A14 /* XMGLoginRegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XMGLoginRegisterViewController.xib; sourceTree = "<group>"; };
 		5B5C3DFD2287B9D800E8C046 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5C3E002287B9D800E8C046 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B5C3E012287B9D800E8C046 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +88,9 @@
 		5BB3E0DA228AE6110006C0AB /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
 		5BB3E0DD228AEDE50006C0AB /* UIBarButtonItem+XMGExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XMGExtension.h"; sourceTree = "<group>"; };
 		5BB3E0DE228AEDE50006C0AB /* UIBarButtonItem+XMGExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XMGExtension.m"; sourceTree = "<group>"; };
+		5BD0329B228BC3D000CFAC35 /* XMGRecommendFollowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGRecommendFollowViewController.h; sourceTree = "<group>"; };
+		5BD0329C228BC3D000CFAC35 /* XMGRecommendFollowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGRecommendFollowViewController.m; sourceTree = "<group>"; };
+		5BD032A0228C3A7A00CFAC35 /* XMGFriendTrendsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XMGFriendTrendsViewController.xib; sourceTree = "<group>"; };
 		5BE6B6F922898F8200E62A64 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		EF67C36E3BBF14F734066AC6 /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -251,6 +261,12 @@
 			children = (
 				5BB3E0C3228ADA3A0006C0AB /* XMGFriendTrendsViewController.h */,
 				5BB3E0C4228ADA3A0006C0AB /* XMGFriendTrendsViewController.m */,
+				5BD032A0228C3A7A00CFAC35 /* XMGFriendTrendsViewController.xib */,
+				5BD0329B228BC3D000CFAC35 /* XMGRecommendFollowViewController.h */,
+				5BD0329C228BC3D000CFAC35 /* XMGRecommendFollowViewController.m */,
+				5B32852C228D3DCE00351A14 /* XMGLoginRegisterViewController.h */,
+				5B32852D228D3DCE00351A14 /* XMGLoginRegisterViewController.m */,
+				5B32852E228D3DCE00351A14 /* XMGLoginRegisterViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -447,7 +463,9 @@
 			files = (
 				5B5C3E0D2287B9DA00E8C046 /* LaunchScreen.storyboard in Resources */,
 				5B5C3E0A2287B9DA00E8C046 /* Assets.xcassets in Resources */,
+				5B328530228D3DCE00351A14 /* XMGLoginRegisterViewController.xib in Resources */,
 				5B5C3E082287B9D800E8C046 /* Main.storyboard in Resources */,
+				5BD032A1228C3A7A00CFAC35 /* XMGFriendTrendsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,8 +542,10 @@
 				5BB3E0BF228ADA220006C0AB /* XMGEssenceViewController.m in Sources */,
 				5BB3E0BC228AA77F0006C0AB /* XMGTabBar.m in Sources */,
 				5B952DFF22882D64006BE88B /* XMGTabBarController.m in Sources */,
+				5BD0329D228BC3D000CFAC35 /* XMGRecommendFollowViewController.m in Sources */,
 				5B952E0222883AD6006BE88B /* XMGViewController.m in Sources */,
 				5B5C3E102287B9DA00E8C046 /* main.m in Sources */,
+				5B32852F228D3DCE00351A14 /* XMGLoginRegisterViewController.m in Sources */,
 				5BB3E0C5228ADA3A0006C0AB /* XMGFriendTrendsViewController.m in Sources */,
 				5BB3E0C8228ADA470006C0AB /* XMGMeViewController.m in Sources */,
 				5BB3E0C2228ADA2F0006C0AB /* XMGNewViewController.m in Sources */,

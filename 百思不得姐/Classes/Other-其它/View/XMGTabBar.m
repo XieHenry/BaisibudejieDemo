@@ -14,6 +14,17 @@
 
 @implementation XMGTabBar
 
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        // 设置背景图片--图片尺寸不对。不进行显示了
+//        self.backgroundImage = [UIImage imageNamed:@"tabbar-light"];
+    }
+    return self;
+}
+
+
 //MARK:发布按钮
 -(UIButton *)publicButton {
     if (!_publicButton) {

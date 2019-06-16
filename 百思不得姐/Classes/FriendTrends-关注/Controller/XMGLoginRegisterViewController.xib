@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -90,7 +90,7 @@
                             </constraints>
                         </imageView>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_register_right_line" translatesAutoresizingMaskIntoConstraints="NO" id="HgC-PA-fwH">
-                            <rect key="frame" x="237" y="10" width="177" height="1"/>
+                            <rect key="frame" x="237" y="10" width="177" height="16"/>
                             <constraints>
                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="130" id="j11-a1-Mgm"/>
                                 <constraint firstAttribute="width" constant="177" id="v36-Z4-Yxz"/>
@@ -100,7 +100,7 @@
                             <rect key="frame" x="0.0" y="28" width="414" height="180"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSx-9f-6dn" userLabel="QQ" customClass="XMGQuickLoginButton">
-                                    <rect key="frame" x="41" y="20" width="332" height="70"/>
+                                    <rect key="frame" x="41" y="20" width="332" height="20"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                     <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="30"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="10" maxY="0.0"/>
@@ -110,7 +110,7 @@
                                     <state key="highlighted" image="login_sina_icon_click"/>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新浪微博" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xyb-gO-PV2">
-                                    <rect key="frame" x="172" y="100" width="70" height="17"/>
+                                    <rect key="frame" x="172" y="50" width="70" height="17"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="70" id="Aje-78-Xdi"/>
                                         <constraint firstAttribute="height" constant="17" id="TQJ-1B-boD"/>
